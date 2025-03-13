@@ -15,17 +15,21 @@ a{
     color: #e5e7eb;
 }
 
-img {
+/* img {
     box-sizing: border-box;
     width: 150px;
     height: 150px;
     border-style: solid;
     border-radius: 15px;
     border-color: #3882f6;
-}
+} */
 
 button {
     background-color: #3882f6;
+    color: #ffffff;
+    padding: 2px 13px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 body {
@@ -55,18 +59,24 @@ body {
 .body {
     display: flex;
     margin-bottom: 50px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .body-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 500px;
-    gap: 8px;
+    gap: 10px;
 }
 
 .body-right {
     width: 500px;
-
+}
+.body-right img {
+    width: 500px;
+    object-fit: cover;
 }
 
 .body-header {
@@ -107,6 +117,16 @@ body {
 .info {
     width: 150px;
   }
+
+.info img{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #3882f6;
+
+}
 
 .flex-3 {
     display: flex;
@@ -160,11 +180,8 @@ body {
 }
 
 .flex-4-button {
-    color: #ffffff;
     border-color: #ffffff;
     border-style: solid;
-    padding: 2px 13px;
-    border-radius: 5px;
 }
 
 .footer {
