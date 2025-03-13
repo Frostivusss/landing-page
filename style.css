@@ -59,7 +59,7 @@ body {
 .body {
     display: flex;
     margin-bottom: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
